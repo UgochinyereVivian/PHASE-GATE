@@ -51,7 +51,16 @@ public class CreditCard{
 
     total += newSum + multiple;
 
-
+    for(int counter = 0; counter < 1; counter++){
+    if(newArray[0] == 4)
+           System.out.println("Credit Card Type : VisaCard \n");
+    else if(newArray[0] == 5)
+           System.out.printf("Credit Card Type: MasterCard");
+    else if(newArray[0] == 3 && newArray[1] == 7)
+           System.out.printf("Credit Card Type: American Express Card ");
+    else if(newArray[0] == 6)
+           System.out.printf("Credit Card Type: Discover Cards");
+    }
 
     System.out.printf("Credit Card Number: %s \n",cardNumber);
     System.out.printf("Credit Card Length: %d \n", cardNumber.length());
