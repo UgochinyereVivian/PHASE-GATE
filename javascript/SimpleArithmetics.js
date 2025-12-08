@@ -8,8 +8,8 @@
 for  (let count = 0; count <= 2; count++){
     
     for(let counter = 0; count < 2; count++){
-        var firstNumber = Math.floor(Math.random(10)*500);
-        var secondNumber = Math.floor(Math.random(10)*30); 
+        var firstNumber = Math.floor(Math.random(10)+500);
+        var secondNumber = Math.floor(Math.random(10)+30); 
         console.log("Enter the result of: ", firstNumber, " - " ,secondNumber, " : "); 
         const prompt = require("prompt-sync")();
         let neww = prompt("result: ") 
@@ -28,8 +28,8 @@ for  (let count = 0; count <= 2; count++){
      
     console.log("Welcome to the second phase");
     for(let counti = 2; counti < 4; counti++){
-        var firstNumber = Math.floor(Math.random(10)*50);
-        var secondNumber = Math.floor(Math.random(10)*30); 
+        var firstNumber = Math.floor(Math.random(10)+50);
+        var secondNumber = Math.floor(Math.random(10)+30); 
         console.log("Enter the result of: ", firstNumber, " - " ,secondNumber, " : "); 
         const prompt = require("prompt-sync")();
         let neww = prompt("result: ") 
@@ -52,8 +52,8 @@ for  (let count = 0; count <= 2; count++){
     console.log("Welcome to the third phase");
     for(let countin = 4; countin < 6; countin ++){
         console.log("Enter the result of firstNumber - secondNumber"); 
-        var firstNumber = Math.floor(Math.random(10)*800);
-        var secondNumber = Math.floor(Math.random(10)*30); 
+        var firstNumber = Math.floor(Math.random(10)+800);
+        var secondNumber = Math.floor(Math.random(10)+30); 
         console.log("Enter the result of: ", firstNumber, " - " ,secondNumber, " : "); 
         const prompt = require("prompt-sync")();
         let neww = prompt("result: ") 
@@ -78,8 +78,8 @@ for  (let count = 0; count <= 2; count++){
 console.log("Welcome to the fourth phase");
 for  (let count = 0; count <= 2; count++){
     
-        var firstNumber = Math.floor(Math.random(10)*90);
-        var secondNumber = Math.floor(Math.random(10)*70); 
+        var firstNumber = Math.floor(Math.random(10)+90);
+        var secondNumber = Math.floor(Math.random(10)+70); 
         console.log("Enter the result of: ", firstNumber, " - " ,secondNumber, " : "); 
         const prompt = require("prompt-sync")();
         let neww = prompt("result: ") 
@@ -97,8 +97,8 @@ for  (let count = 0; count <= 2; count++){
          
          console.log("Welcome to the fifth phase");
          for(let counti = 2; counti < 4; counti++){
-            var firstNumber = Math.floor(Math.random(10)*60);
-            var secondNumber = Math.floor(Math.random(10)*20); 
+            var firstNumber = Math.floor(Math.random(10)+60);
+            var secondNumber = Math.floor(Math.random(10)+20); 
             console.log("Enter the result of: ", firstNumber, " - " ,secondNumber, " : "); 
             const prompt = require("prompt-sync")();
             let neww = prompt("result: ") 
@@ -121,8 +121,8 @@ for  (let count = 0; count <= 2; count++){
 
          console.log("Welcome to the sixth phase");
          for(let countin = 4; countin < 6; countin ++){
-            var firstNumber = Math.floor(Math.random(10)*40);
-            var secondNumber = Math.floor(Math.random(10)*10); 
+            var firstNumber = Math.floor(Math.random(10)+40);
+            var secondNumber = Math.floor(Math.random(10)+10); 
             console.log("Enter the result of: ", firstNumber, " - " ,secondNumber, " : "); 
             const prompt = require("prompt-sync")();
             let neww = prompt("result: ") 
@@ -147,8 +147,8 @@ for  (let count = 0; count <= 2; count++){
 console.log("Welcome to the seventh phase");
 for  (let count = 0; count <= 2; count++){
     
-        var firstNumber = Math.floor(Math.random(10)*70);
-        var secondNumber = Math.floor(Math.random(10)*40); 
+        var firstNumber = Math.floor(Math.random(10)+70);
+        var secondNumber = Math.floor(Math.random(10)+40); 
         console.log("Enter the result of: ", firstNumber, " - " ,secondNumber, " : "); 
         const prompt = require("prompt-sync")();
         let neww = prompt("result: ") 
@@ -167,8 +167,8 @@ for  (let count = 0; count <= 2; count++){
   
          console.log("Welcome to the eight phase");
          for(let counti = 2; counti < 4; counti++){
-            var firstNumber = Math.floor(Math.random(10)*20);
-            var secondNumber = Math.floor(Math.random(10)*10); 
+            var firstNumber = Math.floor(Math.random(10)+20);
+            var secondNumber = Math.floor(Math.random(10)+10); 
             console.log("Enter the result of: ", firstNumber, " - " ,secondNumber, " : "); 
             const prompt = require("prompt-sync")();
             let neww = prompt("result: ") 
@@ -192,8 +192,8 @@ for  (let count = 0; count <= 2; count++){
 
          console.log("Welcome to the ninth phase");
          for(let countin = 4; countin < 6; countin ++){
-            var firstNumber = Math.floor(Math.random(10)*90);
-            var secondNumber = Math.floor(Math.random(10)*60); 
+            var firstNumber = Math.floor(Math.random(10)+90);
+            var secondNumber = Math.floor(Math.random(10)+60); 
             console.log("Enter the result of: ", firstNumber, " - " ,secondNumber, " : "); 
             const prompt = require("prompt-sync")();
             let neww = prompt("result: ") 

@@ -31,8 +31,8 @@ for  (int count = 0; count <= 2; count++){
          
          System.out.println("Welcome to the second phase");
          for(int counti = 2; counti < 4; counti++){
-            firstNumber = (int)(Math.random()*50);
-            secondNumber = (int)(Math.random()*30); 
+            firstNumber = (int)(Math.random()+50);
+            secondNumber = (int)(Math.random()+30); 
             result = firstNumber - secondNumber;
             System.out.printf("Enter the result of %d - %d: ",firstNumber, secondNumber);  
              userAnswer = scanner.nextInt();
@@ -56,8 +56,8 @@ for  (int count = 0; count <= 2; count++){
 
          System.out.println("Welcome to the third phase");
          for(int countin = 4; countin < 6; countin ++){
-             firstNumber = (int)(Math.random()*80);
-             secondNumber = (int)(Math.random()*30);
+             firstNumber = (int)(Math.random()+80);
+             secondNumber = (int)(Math.random()+30);
              result = firstNumber - secondNumber;
              System.out.printf("Enter the result of %d - %d: ",firstNumber, secondNumber); 
              userAnswer = scanner.nextInt();
@@ -83,8 +83,8 @@ System.out.println("Welcome to the fourth phase");
 for  (int count = 0; count <= 2; count++){
     
         for(int counter = 0; count < 2; count++){
-             firstNumber = (int)(Math.random()*1000);
-             secondNumber = (int)(Math.random()*30);
+             firstNumber = (int)(Math.random()+1000);
+             secondNumber = (int)(Math.random()+30);
              result = firstNumber - secondNumber;
              System.out.printf("Enter the result of %d - %d: ",firstNumber, secondNumber); 
              userAnswer = scanner.nextInt();
@@ -101,8 +101,8 @@ for  (int count = 0; count <= 2; count++){
          
          System.out.println("Welcome to the fifth phase");
          for(int counti = 2; counti < 4; counti++){
-             firstNumber = (int)(Math.random()*90);
-             secondNumber = (int)(Math.random()*30);
+             firstNumber = (int)(Math.random()+90);
+             secondNumber = (int)(Math.random()+30);
              result = firstNumber - secondNumber;
              System.out.printf("Enter the result of %d - %d: ",firstNumber, secondNumber); 
              userAnswer = scanner.nextInt();
@@ -125,8 +125,8 @@ for  (int count = 0; count <= 2; count++){
 
          System.out.println("Welcome to the sixth phase");
          for(int countin = 4; countin < 6; countin ++){
-             firstNumber = (int)(Math.random()*300);
-             secondNumber = (int)(Math.random()*30);
+             firstNumber = (int)(Math.random()+300);
+             secondNumber = (int)(Math.random()+30);
              result = firstNumber - secondNumber;
              System.out.printf("Enter the result of %d - %d: ",firstNumber, secondNumber); 
              userAnswer = scanner.nextInt();
@@ -153,8 +153,8 @@ System.out.println("Welcome to the seventh phase");
 for  (int count = 0; count <= 2; count++){
     
         for(int counter = 0; count < 2; count++){
-             firstNumber = (int)(Math.random()*30);
-             secondNumber = (int)(Math.random()*10);
+             firstNumber = (int)(Math.random()+30);
+             secondNumber = (int)(Math.random()+10);
              result = firstNumber - secondNumber;
              System.out.printf("Enter the result of %d - %d: ",firstNumber, secondNumber); 
              userAnswer = scanner.nextInt();
@@ -171,8 +171,8 @@ for  (int count = 0; count <= 2; count++){
          
          System.out.println("Welcome to the eight phase");
          for(int counti = 2; counti < 4; counti++){
-             firstNumber = (int)(Math.random()*900);
-             secondNumber = (int)(Math.random()*30);
+             firstNumber = (int)(Math.random()+900);
+             secondNumber = (int)(Math.random()+30);
              result = firstNumber - secondNumber;
              System.out.printf("Enter the result of %d - %d: ",firstNumber, secondNumber); 
              userAnswer = scanner.nextInt();
@@ -195,8 +195,8 @@ for  (int count = 0; count <= 2; count++){
 
          System.out.println("Welcome to the ninth phase");
          for(int countin = 4; countin < 6; countin ++){
-             firstNumber = (int)(Math.random()*3000);
-             secondNumber = (int)(Math.random()*80);
+             firstNumber = (int)(Math.random()+3000);
+             secondNumber = (int)(Math.random()+80);
              result = firstNumber - secondNumber;
              System.out.printf("Enter the result of %d - %d: ",firstNumber, secondNumber); 
              userAnswer = scanner.nextInt();
