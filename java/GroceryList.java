@@ -21,25 +21,26 @@ public class GroceryList{
         String Choice = scanner.nextLine();
         int newChoice = Integer.parseInt(Choice);
 
-        System.out.println("Enter the number of item you may want to add");
-        int noItems = scanner.nextInt();
-        String[] list = new String [noItems];
+        String[] list = new String [10];
+        
 
 
 switch(newChoice){
 
-     case 1:{System.out.println("Enter the item you may want to add");
-             while (index <= noItems){
+     case 1:{System.out.println("Enter the number of item you may want to add");
+            int noItems = scanner.nextInt();
+            System.out.println("Enter the item you may want to add");
+            for(int count = 0; count < noItems; count++){
+             while (index < noItems){
                 String item = scanner.nextLine();
                 list[index] = item;
-                noItems++;
-              System.out.println(Arrays.toString(list));
-             }
-
+                index++;
+             }}
+            System.out.println("grocery list is: " + Arrays.toString(list));
 
     }
 
-    case 3: System.out.println(list);
+//    case 3: System.out.println(list);
              
 
 
