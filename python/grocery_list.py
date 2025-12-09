@@ -18,8 +18,7 @@ users_cart = []
 
 match users_list:
         case 1:
-#            new =  int(input("2 to braek"))
-#            while(new != 2): 
+
             index = 0 
             number_of_items = int(input("Enter the number of items you may want to add to your cart:"))
             while (index <= number_of_items):
